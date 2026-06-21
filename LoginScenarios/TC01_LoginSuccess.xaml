@@ -1,0 +1,285 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="TC01_LoginSuccess" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="TC01_LoginSuccess_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="TC01_LoginSuccess" sap:VirtualizedContainerService.HintSize="792,591.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="strUserName" />
+      <Variable x:TypeArguments="ss:SecureString" Name="secPassword" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="PracticeAutomation_Scenario1" CacheStrategy="None" DisplayName="Get Login Credentials" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="449.6,175.2" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[secPassword]" Username="[strUserName]" />
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="PracticeAutomation - Home Page" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="449.6,56.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.IfNotOpen]" ScopeGuid="aac385f6-d79b-45e7-876f-358fdeb02b19" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Enter login credentials" sap:VirtualizedContainerService.HintSize="449.6,1084.8" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:LogMessage DisplayName="Home page loaded" sap:VirtualizedContainerService.HintSize="416,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Home page loaded&quot;]" />
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'TxtUserName'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,245.6" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="aac385f6-d79b-45e7-876f-358fdeb02b19" Text="[strUserName]" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="practicetestautomation.com/practice-test-login" ContentHash="JncthH4lt0iOEgYcR65oeQ" DesignTimeRectangle="584, 470, 750, 59" DesignTimeScaleFactor="1.25" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='username' tag='INPUT' /&gt;" Guid="4fbd2823-2483-42d4-8bf8-226ec508f311" InformativeScreenshot="aa3d54be77aba66d3fc4dad60db2ebe3.jpg" Reference="NT7ao9iHFkSEBUirmsYrYw/NIHk0Bnz-EOqJFpJT2QfzA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Test Login | Practice Test Automation' /&gt;" SearchSteps="Selector" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'TxtPassword'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,245.6" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="aac385f6-d79b-45e7-876f-358fdeb02b19" SecureText="[secPassword]" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="practicetestautomation.com/practice-test-login" ContentHash="3RK4XVkoK0qJogXB2f_LGg" DesignTimeRectangle="584, 603, 750, 59" DesignTimeScaleFactor="1.25" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='password' tag='INPUT' /&gt;" Guid="a82a7813-99a4-4395-a774-63e09defd51e" InformativeScreenshot="06700479820b161859a741a4c0215602.jpg" Reference="NT7ao9iHFkSEBUirmsYrYw/7RtLB1I_u0KK0oPBsozKng" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Test Login | Practice Test Automation' /&gt;" SearchSteps="Selector" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <ui:LogMessage DisplayName="Credentials provided" sap:VirtualizedContainerService.HintSize="416,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Login credentials entered&quot;]" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'BtnSubmit'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,184.8" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="aac385f6-d79b-45e7-876f-358fdeb02b19" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="practicetestautomation.com/practice-test-login" ContentHash="iRPXvYI2_0SEPY0CwRU1KA" DesignTimeRectangle="584, 701, 160, 68" DesignTimeScaleFactor="1.25" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='submit' tag='BUTTON' /&gt;" Guid="a840ca13-6237-40ca-8304-fcb0014c2ad1" InformativeScreenshot="8b324b9c8c478d07ddea30e70d24f4df.jpg" Reference="NT7ao9iHFkSEBUirmsYrYw/-G_EmHtJJECT4xgDf_Z86w" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Test Login | Practice Test Automation' /&gt;" SearchSteps="Selector" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Edge" ContentHash="ICxPz83L30uNW7YHg9Yr5w" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAASDSURBVFhH7ZdZSJ1HFMfjFkUR85CCPlkRRB8Ea0mxkZJQQX3QJwNF0oKCrcSmxSItVqzGuIsoLlgs7kpt0boQRQMp0USrPsQkhgTtItS0gRCCNK6tXn/lTO738d3RGzXxoQ/9w3D5Zs6c/5kzZ5l77Nj/OCQAb+Bt4APgE+Ai8B7wBuCuyx8JRLGdZATYxDn+ArqBd3UdLw0gAfhZZzoAJoBIXd+BAXgC3+haD4l/gM913fsC8AF+1LW9AhoAF51nTwBuwNDW1hbT09M0NjaSn59PdnY2lZWVXL16lbW1NZ2Ap0+f0tfXR1lZGbm5uVy+fJn29nZmZ2ex2WwiUqJz7Ynl5eXcqKgoYmJiuHbtmlK8s7OjSFZWVpiamuLSpUucO3eO06dPc+bMGZKTk6mrq+PBgwdsbj6P0e3tbR49ekRPTw/h4eEiI0oSdT4HACE2m+3vkpISWlpaHI+oIT4+nvX1debn58nMzNSXHZCenq4OA/wh16vzmgC+Fam7d+/S0CDX5hxpaWnqV0588aKUAue4cOGC8ogdX+i8CkAAsCUS4vLy8nIHJVY8e/ZMxYSB/QzQdP0OuOr8YsDHVqn6+nrrpwNKS0t5+PCh+T08PKzGXpAY6u6W2uSAaJ1fDPjBKiF3m5eXx+joKOPj49y4cYP+/n6qqqro7e21iipUV1fT1NTE0NAQN2/eVHuuXLlCVlYWq6uruvhXOr8Y8IsuJUG2sLDA7du3mZubU6fZDxL5EkN37txhcXHRevdW9Oj8YsC6sSqER41bt25ZP3/S+cWA58kOJCUlWYVfGRK0KSkp1qlZnV8MMC8qLi6OgYEB64ZdENdKXEhhMoqPMxQUFJCTk2OdmtT5xYB5Y1VSLDg4eM+SKyV6cHCQyMhIAgMDVSUMCQmhq6uLjY0NXVzFgY+Pj54J3+n8YsD3xmpnZycyped3bW0tJ0+eVGuurq4UFxeriunp6anm/Pz8VB8wID3g7Nmzau3evXtWVV/q/GLAR8aquFWmXFxcVBoKJC2FNDQ0VKWnZIeBpaUlioqKiIiIUPuuX7+u5isqKkxjNW++pfOLAa8Zrx1JN3d3d7XZ399fEbS1tREWFvbC+5YTR0dHK+KJiQmOHz+udMgVWfCr09YMmB0oMTFRbZYh8SAdUDyzH+7fv8/58+c5ceKEub+wsNAq8qnOawJ4HVC+Epd7eXmZSuQ6rIEkwShNJiMjQ6WZAQlgY4+MoKAgq/t/A7x0XgcAnxnSra2tDsoCAgJ4/PixSRYbG8upU6fMaiePDw8PD1Pe29ubmZkZQ1xeJTE63y7I/UiaGLuMQDKG3Kf0BOnv0uflLSD1QLLByBAZ4r2REXlEm9gd+c5gf5CalUieZW5ubg6GvGhIOo6NjVnJS3WOfWF/G1bYXUdHR8eBjPD19WVyctIglv7yoa77UADekV4i2sT1cjqd1BgScJamIw+EEF3fS8EeF3Hyr+fJkyfLNTU1pKamkpCQoIY8z5qbmyXa/wS+Bt7UdRwZ7FcTJqXC/v/wfXmjAkFOC8x/Gf8CehljgRoH8bcAAAAASUVORK5CYII=" InformativeScreenshot="10a4fb13c59f4a642015303c8c3182a6.jpg" Reference="NT7ao9iHFkSEBUirmsYrYw/Z0insPiu60qqMV7fIvDDmw" Selector="&lt;html app='msedge.exe' title='Test Login*' /&gt;" Url="https://practicetestautomation.com/practice-test-login/" Version="V3">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="PracticeAutomation - Login Success" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="449.6,48" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="fbfe90e2-71ff-4ae1-b1ef-0407844ee06f" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Check if successfully logged in" sap:VirtualizedContainerService.HintSize="449.6,424" sap2010:WorkflowViewState.IdRef="Sequence_6">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:Boolean" Name="bLoginSuccess" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NCheckState DisplayName="Check if login success page appeared" Exists="[bLoginSuccess]" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="416,56.8" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="fbfe90e2-71ff-4ae1-b1ef-0407844ee06f" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears - Success" sap:VirtualizedContainerService.HintSize="449.6,89.6" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear - Fail" sap:VirtualizedContainerService.HintSize="449.6,89.6" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="practicetestautomation.com/logged-in-successfully" ContentHash="tkf5doW6CUSI1NVkConBvQ" DesignTimeRectangle="500, 445, 919, 68" DesignTimeScaleFactor="1.25" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" Guid="1e54e363-8746-44f1-bf2b-c3830091cad1" InformativeScreenshot="94d2fb818bb809c53720d6b65415cec8.jpg" Reference="NT7ao9iHFkSEBUirmsYrYw/qNELDW7S4ka3yNoWDOr-Ag" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Logged In Successfully | Practice Test Automation' /&gt;" SearchSteps="Selector" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NCheckState.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NCheckState>
+            <uta:VerifyExpression KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" AlternativeVerificationTitle="Login was successful and success message appeared" ContinueOnFailure="True" DisplayName="Verify Expression - Login success" Expression="[bLoginSuccess]" sap:VirtualizedContainerService.HintSize="416,122.4" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'BtnLogout'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,184.8" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fbfe90e2-71ff-4ae1-b1ef-0407844ee06f" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="practicetestautomation.com/logged-in-successfully" ContentHash="BWGHnCxOxkGl7ESgCzKx-A" DesignTimeRectangle="891, 612, 137, 62" DesignTimeScaleFactor="1.25" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='loop-container' tag='A' /&gt;" Guid="928282d0-751e-4f14-a2ef-898d2375074d" InformativeScreenshot="f18d4886d020f9a15ac7e1fa76ea237a.jpg" Reference="NT7ao9iHFkSEBUirmsYrYw/Sl6l9eV3ekK1qHotwdXVhQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Logged In Successfully | Practice Test Automation' /&gt;" SearchSteps="Selector" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Edge" ContentHash="tYuexYBDr06R7n9PTnMlEg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAASDSURBVFhH7ZdZSJ1HFMfjFkUR85CCPlkRRB8Ea0mxkZJQQX3QJwNF0oKCrcSmxSItVqzGuIsoLlgs7kpt0boQRQMp0USrPsQkhgTtItS0gRCCNK6tXn/lTO738d3RGzXxoQ/9w3D5Zs6c/5kzZ5l77Nj/OCQAb+Bt4APgE+Ai8B7wBuCuyx8JRLGdZATYxDn+ArqBd3UdLw0gAfhZZzoAJoBIXd+BAXgC3+haD4l/gM913fsC8AF+1LW9AhoAF51nTwBuwNDW1hbT09M0NjaSn59PdnY2lZWVXL16lbW1NZ2Ap0+f0tfXR1lZGbm5uVy+fJn29nZmZ2ex2WwiUqJz7Ynl5eXcqKgoYmJiuHbtmlK8s7OjSFZWVpiamuLSpUucO3eO06dPc+bMGZKTk6mrq+PBgwdsbj6P0e3tbR49ekRPTw/h4eEiI0oSdT4HACE2m+3vkpISWlpaHI+oIT4+nvX1debn58nMzNSXHZCenq4OA/wh16vzmgC+Fam7d+/S0CDX5hxpaWnqV0588aKUAue4cOGC8ogdX+i8CkAAsCUS4vLy8nIHJVY8e/ZMxYSB/QzQdP0OuOr8YsDHVqn6+nrrpwNKS0t5+PCh+T08PKzGXpAY6u6W2uSAaJ1fDPjBKiF3m5eXx+joKOPj49y4cYP+/n6qqqro7e21iipUV1fT1NTE0NAQN2/eVHuuXLlCVlYWq6uruvhXOr8Y8IsuJUG2sLDA7du3mZubU6fZDxL5EkN37txhcXHRevdW9Oj8YsC6sSqER41bt25ZP3/S+cWA58kOJCUlWYVfGRK0KSkp1qlZnV8MMC8qLi6OgYEB64ZdENdKXEhhMoqPMxQUFJCTk2OdmtT5xYB5Y1VSLDg4eM+SKyV6cHCQyMhIAgMDVSUMCQmhq6uLjY0NXVzFgY+Pj54J3+n8YsD3xmpnZycyped3bW0tJ0+eVGuurq4UFxeriunp6anm/Pz8VB8wID3g7Nmzau3evXtWVV/q/GLAR8aquFWmXFxcVBoKJC2FNDQ0VKWnZIeBpaUlioqKiIiIUPuuX7+u5isqKkxjNW++pfOLAa8Zrx1JN3d3d7XZ399fEbS1tREWFvbC+5YTR0dHK+KJiQmOHz+udMgVWfCr09YMmB0oMTFRbZYh8SAdUDyzH+7fv8/58+c5ceKEub+wsNAq8qnOawJ4HVC+Epd7eXmZSuQ6rIEkwShNJiMjQ6WZAQlgY4+MoKAgq/t/A7x0XgcAnxnSra2tDsoCAgJ4/PixSRYbG8upU6fMaiePDw8PD1Pe29ubmZkZQ1xeJTE63y7I/UiaGLuMQDKG3Kf0BOnv0uflLSD1QLLByBAZ4r2REXlEm9gd+c5gf5CalUieZW5ubg6GvGhIOo6NjVnJS3WOfWF/G1bYXUdHR8eBjPD19WVyctIglv7yoa77UADekV4i2sT1cjqd1BgScJamIw+EEF3fS8EeF3Hyr+fJkyfLNTU1pKamkpCQoIY8z5qbmyXa/wS+Bt7UdRwZ7FcTJqXC/v/wfXmjAkFOC8x/Gf8CehljgRoH8bcAAAAASUVORK5CYII=" InformativeScreenshot="d288e57dcf011eccfab0748ca6ab9c79.jpg" Reference="NT7ao9iHFkSEBUirmsYrYw/PxqXJGG9p0eg1ek3sMCIkA" Selector="&lt;html app='msedge.exe' title='Logged In Successfully*' /&gt;" Url="https://practicetestautomation.com/logged-in-successfully/" Version="V3">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

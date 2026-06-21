@@ -1,0 +1,6 @@
+{
+  "Name": "ApplicationTestingDemo",
+  "ProjectType": "Tests",
+  "Description": "Application testing scenarios demo",
+  "MainFile": "Main.xaml"
+}

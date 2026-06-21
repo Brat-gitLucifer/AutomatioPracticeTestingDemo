@@ -1,0 +1,79 @@
+{
+  "name": "ApplicationTestingDemo",
+  "projectId": "dcfa353e-112a-4b2e-abbb-fcfa061c3fdf",
+  "description": "Application testing scenarios demo",
+  "main": "Main.xaml",
+  "dependencies": {
+    "AutomationPracticeObjectRepo": "[1.0.1]",
+    "UiPath.System.Activities": "[26.2.4]",
+    "UiPath.Testing.Activities": "[25.10.2]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "26.0.190.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "NewtonsoftJson",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "13bd1d74-df7c-4420-bdbc-6aeab597a871",
+        "testCaseType": "TestCase",
+        "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "beef395d-771e-4a57-a6dd-ce410f44de44",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "LoginScenarios\\TC01_LoginSuccess.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c7cae9d9-b84a-4ea6-97e9-2db432e8adcd",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "LoginScenarios\\TC02_IncorrectUser.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "f83f6b55-988f-4aa4-8386-ccad15d8060a",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "ExceptionScenarios\\TC04_RowAddScenario.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
